@@ -1,0 +1,11 @@
+{
+  "windows-queue-check": {
+    "PostInvocation": [
+      {
+        "type": "command",
+        "command": "powershell.exe -NoLogo -NoProfile -NonInteractive -File .\\queue-check.ps1",
+        "timeout": 10
+      }
+    ]
+  }
+}
